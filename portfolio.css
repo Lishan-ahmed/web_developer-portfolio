@@ -163,4 +163,14 @@ main secton{
 }
 .download-cv{
     text-align: center;
+    margin-top: 50px;
+}
+
+/* footer-style */
+
+footer{
+    display: flex;
+    margin-top: 100px;
+    background: #faf2ed;
+    padding: 130px 200px;
 }
