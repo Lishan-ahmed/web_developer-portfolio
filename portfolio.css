@@ -96,7 +96,7 @@ main secton{
 .about{
     padding: 130px;
     border-radius: 10px;
-    background: #FFF8F3;
+    background: #eecdb4;
     margin: 130px 0;
 }
 .about-info-container{
@@ -108,6 +108,10 @@ main secton{
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+}
+.about-intodo{
+    background: #757575;
+    padding: 20px;
 }
 /* skills related styles */
 
@@ -128,4 +132,12 @@ main secton{
 .skill-description{
     color:  #757575;
     
+}
+/* Resume section styles */
+
+.resume-column-title{
+    color:  #474747;
+    font-size: 30px;
+    font-weight: 700;
+
 }
