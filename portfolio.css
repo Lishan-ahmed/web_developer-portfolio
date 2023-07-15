@@ -193,3 +193,38 @@ textarea {
     width: 100%;   
 }
 
+/* Responsive style */
+
+/* mobile devices */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .header{
+        background-image: none;
+    }
+    .banner .profile-pic{
+        width: 100%;
+
+    }
+    .skills-container, .resume-container, footer, .about-info-container, .banner, nav, nav > ul{
+        flex-direction: column;
+    }
+    #what-i-do-description, .banner{
+        padding: 0;
+    }
+    footer {
+        padding: 10x;
+    }
+    .about{
+        padding: 10px;
+    }
+    .btn-primary{
+        margin-bottom: 15px;
+    }
+    nav > ul{
+        gap: 10ox;
+    }
+}
+
